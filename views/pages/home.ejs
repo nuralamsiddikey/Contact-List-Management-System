@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <!-- contactList-header-section -->
+    <div class="contactList-header">
+        <div class="row">
+            <div class="col-md-10">
+                <h3>Contactlist management system</h3>
+            </div>
+            <div class="col-md-2">
+                <a href="/userlogout/logout">logout</a>
+            </div>
+        </div>
+    </div>
+ 
+ <!-- contactList-home-section -->
+
+<div class="contactList-home">
+    <div class="contactList-home-left">
+        <div class="nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/userAll/allMembers"> All Members</a></li>
+                <li><a href="/userSp/superMembers">Super Members</a></li>
+                <li><a href="/userGl/generalMembers">General Members</a></li>
+            </ul>
+        </div>
+        
+        
+        
+        </div>
+        <div class="contactList-home-right">
+           <div class="contactList-home-right-main">
+             <div class="row">
+                 <div class="col-md-3 box ">
+                     <a href="/user/register">Add new member</a>
+                 </div>
+                 <div class="col-md-3 box">
+                     <a href="#">Something</a>
+                 </div>
+                 <div class="col-md-3 box">
+                     <a href="#">Something</a>
+                 </div>
+
+                
+
+
+             </div>
+
+  <div class="row">
+    <div class="col-md-3  numberShowBox " >
+      <p>Total member:</p>
+      <h1 id="showTotalMember"></h1>
+    </div>
+    <div class="col-md-3  numberShowBox" >
+       <p>Total general member: </p>
+       <h1 id="showGeneralMember"></h1>
+    </div>
+    <div class="col-md-3 numberShowBox" >
+   <p>Total super member:</p>
+   <h1 id="showSuperMember" ></h1>
+  </div>
+
+  </div>
+
+
+           </div>
+        </div>
+        
+</div>
+
+
+
+
+
+<script src="../js/allMembers.js"></script>
+<script src="../js/generalMembers.js"></script>
+<script src="../js/superMembers.js"></script>
+</body>
+</html>

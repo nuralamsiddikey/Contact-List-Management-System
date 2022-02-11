@@ -1,0 +1,80 @@
+.contactList-header{
+    text-align: center;
+    background-color: aqua;
+    padding: 5px 0;
+   width: 100%;
+  position: sticky;
+  top: 0;
+   
+}
+.contactList-home{
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.contactList-home-left{
+    height: 100%;
+  
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 52px;
+}
+.contactList-home-left ul{
+ margin: 0;
+ padding: 0;
+}
+.contactList-home-left li{
+ padding: 10px 20px;
+   
+    list-style-type: none;
+}
+.contactList-home-left li:hover{
+    background-color: #D3D3D3;
+  
+}
+
+.contactList-home-left li:hover a{
+    color: black;
+}
+.contactList-home-left li a{
+    text-decoration: none;
+   color: white;
+}
+
+.contactList-home-right{
+    width: auto;
+    height: 100%;
+   margin-left: 17%;
+   padding-top: 50px;
+
+}
+.contactList-home-right .contactList-home-right-main{
+    text-align: center;
+}
+.contactList-home-right .contactList-home-right-main .row .box{
+    background-color: #1ABC9C;
+   margin-right: 50px;
+   margin-left: 15px;
+   border-radius: 10px;
+}
+.contactList-home-right .contactList-home-right-main .row .box a{
+    padding: 23px 0;
+    display: inline-block;
+    text-decoration: none;
+   color: white;
+   
+}
+ .numberShowBox{
+   text-align: start;
+    height: 130px;
+    border: 1px solid gray;
+    margin-right: 50px;
+    margin-left: 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+} 

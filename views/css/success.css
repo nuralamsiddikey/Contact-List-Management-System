@@ -1,0 +1,23 @@
+.success{
+    width: 600px;
+    margin: auto;
+}
+
+.success ul li{
+    display: inline-block;
+    margin: 20px 0px;
+ padding: 10px;
+   width: 150px;
+}
+.success ul  .add{
+    background-color: #e74c3c;
+}
+.success ul  .home{
+    background-color: #8e44ad;
+}
+.success ul li a{
+    text-decoration: none;
+   padding: 10px 5px;
+   display: block;
+   color: white;
+}

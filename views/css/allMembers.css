@@ -1,0 +1,45 @@
+
+#showAllData tr td{
+  width: 12%;
+  padding: 5px 10px;
+  display: inline-block;
+  border-right: 1px solid gray;
+  font-size: 14px;
+
+}
+#showAllData tr td:last-child{
+    border-right: none;
+}
+#showAllData tr td button{
+    border: 1px solid lightgray;
+}
+
+#main-table{
+    width: 100%;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 51px;
+}
+#main-table tr{
+    background-color: #1ABC9C;
+   
+}
+#main-table tr th{
+    width: 12%;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+
+/* updateSection */
+.contactList-home-right #updateOne{
+   
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top:0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+ }

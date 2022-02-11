@@ -1,0 +1,7 @@
+.registrationForm{
+    width: 600px;
+    margin: auto;
+   background-color: #f4f4f4;
+    padding: 10px 20px;
+    box-shadow: 5px 3px 3px lightgray;
+}

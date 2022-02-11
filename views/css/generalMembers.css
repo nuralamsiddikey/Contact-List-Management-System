@@ -1,0 +1,15 @@
+#showGeneralData tr td{
+    width: 12%;
+    padding: 5px 10px;
+    display: inline-block;
+    border-right: 1px solid gray;
+    font-size: 14px;
+  
+  }
+  #showGeneralData tr td:last-child{
+      border-right: none;
+  }
+  #showGeneralData tr td button{
+      border: 1px solid lightgray;
+  }
+  

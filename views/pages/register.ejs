@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="registrationForm">
+      <form action="/user/addMember" method="POST">
+        <h1 class="text-center bg-primary py-2 text-light">Register Form</h1>
+    
+    
+       
+       <div class="text-center">
+        <span>Select Category: </span>
+        <input required id="general" type="radio" value="general" name="category">
+        <label for="general">General</label>
+
+        <input required id="super" type="radio" value="super" name="category">
+        <label for="super">Super</label>
+
+       </div>
+
+          <label for="firstName">FirstName</label>
+          <input required name="firstName" class="form-control" type="text" id="firstName" placeholder="firstName">
+
+          <label for="lastName">Last Name</label>
+          <input required name="lastName" class="form-control" type="text" id="lastName" placeholder="lastName">
+
+          <label for="age">Age</label>
+          <input required name="age" class="form-control" type="number" placeholder="Age" id="age">
+
+         <label for="contactNumber">Contact Number</label>
+         <input required name="contactNumber" type="number" class="form-control" id="contactNumber" placeholder="cell" >
+
+         <label for="mail">Mail</label>
+         <input required name="mail" type="text" id="for" class="form-control" placeholder="mail">
+
+      <div class="my-3">
+        <label for="city">City :</label>
+        <select required class="form-control" name="city" id="city">
+          <option value="">Select city</option>
+          <option value="dhaka">Dhaka</option>
+          <option value="khulna">Khulna</option>
+          <option value="rajshahi">Rajshahi</option>
+          <option value="chittagong">Chittagong</option>
+        </select>
+
+      </div>
+
+     
+      <button class="btn btn-primary mt-2" type="submit">Register</button>
+      </form>
+    </div>
+  
+  
+
+
+
+  <script src="../js/register.js"></script>
+</body>
+</html>
